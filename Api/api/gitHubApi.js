@@ -1,8 +1,8 @@
-require('dotenv').config();
-const axios = require('axios');
+require("dotenv").config();
+const axios = require("axios");
 
 const githubApi = axios.create({
-  baseURL: process.env.URL_API_GIT || 'https://api.github.com'
+  baseURL: process.env.URL_API_GIT,
 });
 
 module.exports = githubApi;
