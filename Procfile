@@ -1,1 +1,1 @@
-node Api/bin/www
+web: node Api/bin/www.js
