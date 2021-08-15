@@ -1,0 +1,4 @@
+Api/node_modules
+Api/logs
+*.log
+.env
