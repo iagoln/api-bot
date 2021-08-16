@@ -35,8 +35,6 @@ Criar uma API de integração com a API pública do GitHub.
 ```bash
 $ git clone https://github.com/iagoln/api-bot.git
 
-$ cd Api
-
 $ npm install
 
 # start prodrução
